@@ -1,6 +1,36 @@
 .opening {
-        background-image: url("pictures_document/opening_woman.png");
-        background-size: 1450px;
-        height: 500px;
-        color: pink;
+        background: url("pictures_document/opening_woman.png");
+        background-size: 100% 115%;
+        background-repeat: no-repeat;
+        height: 26em;
+        padding: 0.6em;
+        width: 101.35%;
+        border: 1px solid rgb(238, 235, 235);
+        position: relative;
+        right: 2em;
+        bottom: 1em;
+}
+
+.opening > h1 {
+    padding: 0.5em;
+    font-size: 5em;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2.2px;
+    word-spacing: 1.2px;
+    color: #bda5c2;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    width: 7em;
+    position: relative;
+    left: 5em;
+}
+
+.about-us > p {
+    width: 35em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #0000001e;
 }
