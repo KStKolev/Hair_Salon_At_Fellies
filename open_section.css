@@ -1,36 +1,91 @@
+body {
+    background-color: rgb(236, 238, 240);
+    font-family: "Courier New", Courier, monospace;
+}
+
 .opening {
         background: url("pictures_document/opening_woman.png");
-        background-size: 100% 115%;
+        background-size: 115% 118%;
         background-repeat: no-repeat;
-        height: 26em;
+        height: 45em;
         padding: 0.6em;
         width: 101.35%;
-        border: 1px solid rgb(238, 235, 235);
         position: relative;
         right: 2em;
         bottom: 1em;
 }
 
+.opening > * {
+    width: 8em;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    position: relative;
+    color: #ede7e7;
+}
+
 .opening > h1 {
-    padding: 0.5em;
-    font-size: 5em;
-    font-family: "Courier New", Courier, monospace;
+    font-size: 6em;
+    top: 1.8em;
+    left: 4.3em;
+}
+
+.opening > h2 {
+    font-size: 1.8em;
+    top: 3.5em;
+    left: 43.5%;
+}
+
+.services {
+    margin: 8em auto 9em auto;
+}
+
+.services > .service-container {
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+.service-container > * > img {
+    width: 20em;
+    height: 20em;
+}
+
+.service-container > * {
+    margin-right: 5.5em;
+}
+
+.color {
+    margin-left: 8em;
+}
+
+.service-container > * > h2{
+    text-align: center;
+}
+
+.service-container > * > button {
+    position: relative;
+    left: 38%;
+}
+
+.about-us > h1, .services > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #1d071989;
+    font-weight: 600;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
-    color: #bda5c2;
-    font-weight: 500;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-    width: 7em;
-    position: relative;
-    left: 5em;
+    margin-bottom: 0.5em;
 }
 
 .about-us > p {
-    width: 35em;
+    font-size: 1.1em;
     text-align: center;
-    font-size: 1.5em;
-    color: #0000001e;
+    color: #1d071989;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.about-us > hr, .services > hr {
+    width: 22%;
 }
