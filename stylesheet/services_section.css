@@ -1,0 +1,55 @@
+.services {
+    margin: 15em auto 15em auto;
+}
+
+.services > .service-container {
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+.services > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #1d071989;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    word-spacing: 1.2px;
+    margin-bottom: 0.5em;
+}
+
+.services > hr {
+    width: 22%;
+}
+
+.service-container > * {
+    margin-right: 5.5em;
+}
+
+.service-container > * > img {
+    width: 20em;
+    height: 20em;
+}
+
+.service-container > * > h2 {
+    text-align: center;
+    color: #1d071989;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.service-container > * > button {
+    width: 6.8em;
+    font-size: 1.3em;
+    padding: 0.8em;
+    text-transform: uppercase;
+    background-color: black;
+    color: #ede7e7;
+    border-radius: 3%;
+    position: relative;
+    left: 28%;
+}
+
+.color {
+    margin-left: 8.5em;
+}

@@ -1,0 +1,9 @@
+@import "/stylesheet/open_section.css";
+@import "/stylesheet/services_section.css";
+@import "/stylesheet/about_us_section.css";
+@import "/stylesheet/recent_posted_section.css";
+
+body {
+    background-color: rgb(236, 238, 240);
+    font-family: "Courier New", Courier, monospace;
+}

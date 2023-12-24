@@ -1,0 +1,32 @@
+.opening {
+        background: url("/pictures_document/opening_woman.png");
+        background-size: 115% 118%;
+        background-repeat: no-repeat;
+        height: 45em;
+        padding: 0.6em;
+        width: 101.35%;
+        position: relative;
+        right: 2em;
+        bottom: 1em;
+}
+
+.opening > * {
+    width: 8em;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    position: relative;
+    color: #ede7e7;
+}
+
+.opening > h1 {
+    font-size: 6em;
+    top: 1.8em;
+    left: 4.3em;
+}
+
+.opening > h2 {
+    font-size: 1.7em;
+    top: 3.5em;
+    left: 43.5%;
+}

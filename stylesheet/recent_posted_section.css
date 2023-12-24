@@ -1,0 +1,14 @@
+.recent-posted {
+    margin-bottom: 15em;
+}
+
+.recent-posted h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #1d071989;
+    font-weight: 600;
+    letter-spacing: 2.2px;
+    word-spacing: 1.2px;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
