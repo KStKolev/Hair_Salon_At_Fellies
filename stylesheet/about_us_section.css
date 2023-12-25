@@ -2,6 +2,22 @@
     margin-bottom: 15em;
 }
 
+.about-us > #about-us-1, .about-us > #about-us-2 {
+    position: absolute;
+    height: 70%;
+    width: 30%;
+}
+
+.about-us > #about-us-1 {
+    top: 278%;
+    left: 4%;
+}
+
+.about-us > #about-us-2 {
+    top: 246%;
+    left: 65%;
+}
+
 .about-us > h1 {
     text-align: center;
     font-size: 2.5em;
@@ -22,7 +38,7 @@
 }
 
 .about-us .paragraphs-container > p {
-    width: 75%;
+    width: 73%;
     font-size: 1.09em;
     font-weight: 600;
     text-align: center;
