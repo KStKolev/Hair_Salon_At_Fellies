@@ -1,11 +1,11 @@
 .services {
     margin: 15em auto 15em auto;
 }
-
+/* 
 .services > .service-container {
     display: inline-flex;
     margin-top: 2em;
-}
+} */
 
 .services > h1 {
     text-align: center;
@@ -18,27 +18,28 @@
     margin-bottom: 0.5em;
 }
 
-.services > hr {
+.services hr {
     width: 22%;
 }
 
-.service-container > * {
-    margin-right: 5.5em;
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.service-container > * > img {
-    width: 20em;
-    height: 20em;
+.service-container img{
+    width: 300px;
+    height: 300px;
 }
 
-.service-container > * > h2 {
+.service-container h2 {
     text-align: center;
     color: #1d071989;
     font-size: 1.8em;
     text-transform: uppercase;
 }
 
-.service-container > * > button {
+.service-container button {
     width: 6.8em;
     font-size: 1.3em;
     padding: 0.8em;
