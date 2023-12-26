@@ -1,24 +1,30 @@
 .about-us {
     margin-bottom: 15em;
+    display: flex;
+    justify-content: center;
 }
 
-.about-us > #about-us-1, .about-us > #about-us-2 {
+.about-us-wrapper {
+    position: relative;
+}
+
+.about-us-wrapper > #about-us-1, .about-us-wrapper > #about-us-2 {
     position: absolute;
-    height: 70%;
-    width: 30%;
+    height: 16em;
+    width: 20em;
 }
 
-.about-us > #about-us-1 {
-    top: 278%;
-    left: 4%;
+.about-us-wrapper > #about-us-1 {
+    top: 65%;
+    right: 80%;
 }
 
-.about-us > #about-us-2 {
-    top: 246%;
-    left: 65%;
+.about-us-wrapper > #about-us-2 {
+    left: 80%;
+    bottom: 55%;
 }
 
-.about-us > h1 {
+.about-us-wrapper > h1 {
     text-align: center;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -29,21 +35,21 @@
     margin-bottom: 0.5em;
 }
 
-.about-us > hr {
-    width: 45%;
+.about-us-wrapper > hr {
+    width: 30em;
 }
 
-.about-us .paragraphs-container {
+.about-us-wrapper .paragraphs-container {
     margin-top: 2em;
+    display: inline;
+    align-items: center;
 }
 
-.about-us .paragraphs-container > p {
-    width: 73%;
-    font-size: 1.09em;
+.about-us-wrapper .paragraphs-container > p {
+    width: 60em;
+    font-size: 1.1em;
     font-weight: 600;
     text-align: center;
     color: #1d071989;
-    letter-spacing: 0.1rem;
-    position: relative;
-    left: 13%;
+    letter-spacing: 0.1em;
 }

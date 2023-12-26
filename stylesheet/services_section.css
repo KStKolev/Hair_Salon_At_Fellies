@@ -1,10 +1,11 @@
 .services {
-    margin: 15em auto 15em auto;
+    margin-bottom: 15em;
 }
 
 .services > .service-container {
-    display: inline-flex;
+    display: flex;
     margin-top: 2em;
+    justify-content:center;
 }
 
 .services > h1 {
@@ -19,7 +20,7 @@
 }
 
 .services > hr {
-    width: 22%;
+    width: 15em;
 }
 
 .service-container > * {

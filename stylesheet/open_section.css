@@ -3,30 +3,32 @@
         background-size: 115% 118%;
         background-repeat: no-repeat;
         height: 45em;
-        padding: 0.6em;
         width: 101.35%;
+        padding: 0.7%;
+        margin-bottom: 15em;
         position: relative;
         right: 2em;
         bottom: 1em;
 }
 
-.opening > * {
-    width: 8em;
+.opening-wrapper {
+    position: inherit;
+    top: 33%;
+}
+
+.opening-wrapper > * {
     font-weight: 400;
     letter-spacing: 2.2px;
     text-transform: uppercase;
-    position: relative;
     color: #ede7e7;
+    text-align: center;
 }
 
-.opening > h1 {
+.opening-wrapper > h1 {
+    margin: auto;
     font-size: 6em;
-    top: 1.8em;
-    left: 4.3em;
 }
 
-.opening > h2 {
+.opening-wrapper > h2 {
     font-size: 1.7em;
-    top: 3.5em;
-    left: 43.5%;
 }
