@@ -1,18 +1,12 @@
 .opening {
         background: url("/pictures_document/opening_woman.png");
         background-size: 115% 118%;
-        background-repeat: no-repeat;
         height: 45em;
-        width: 101.35%;
-        padding: 0.7%;
-        margin-bottom: 15em;
-        position: relative;
-        right: 2em;
-        bottom: 1em;
+        width: 100%;
 }
 
 .opening-wrapper {
-    position: inherit;
+    position: relative;
     top: 33%;
 }
 
