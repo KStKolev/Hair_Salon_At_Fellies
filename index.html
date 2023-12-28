@@ -18,20 +18,21 @@
             <h1>Our services</h1>
             <hr>
                 <div class="service-container">
+                    <!-- Don't forget to add the html pages referred to in the anchors-->
                     <div class="color">
                         <img src="pictures_document/color.png" alt="hair-color">
                         <h2>Color</h2>
-                        <button>More</button>
+                        <button><a href="">More</a></button>
                     </div>
                     <div class="haircut">
                         <img src="pictures_document/haircut.png" alt="haircut">
                         <h2>Haircut</h2>
-                        <button>More</button>
+                        <button><a href="">More</a></button>
                     </div>
                     <div class="extensions">
                         <img src="pictures_document/extensions.png" alt="extensions">
                         <h2>Extensions</h2>
-                        <button>More</button>
+                        <button><a href="">More</a></button>
                     </div>
                 </div>
         </section>
@@ -70,6 +71,47 @@
                 </div>
             </div>
         </article>
+        <section class="hair-booking">
+            <h1>Hair Booking</h1>
+            <hr>
+            <div class="booking-wrap">
+                <p>
+                    Fields with placed 
+                    <FONT Color="RED">*</FONT> 
+                    are required.
+                </p>
+                <div class="Name-Booking">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="Email-Booking">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="Phone-Booking">
+                    <label for="email">Phone</label>
+                    <br>
+                    <input type="text" id="phone" name="phone">
+                </div>
+                <div class="Date-Booking">
+                    <label for="date">Date</label>
+                    <br>
+                    <input type="text" id="date" name="date">
+                </div>
+                <div class="Service-Booking">
+                    <label for="service">Service</label>
+                    <br>
+                    <input type="text" id="service" name="service">
+                </div>
+                <div class="Message-Booking">
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+            </div>
+        </section>
         <section class="recent-posted">
             <h1>Recently Posted</h1>
             <article></article>

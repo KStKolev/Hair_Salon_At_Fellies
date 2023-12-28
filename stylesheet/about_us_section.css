@@ -1,11 +1,11 @@
 .about-us {
-    margin-bottom: 15em;
     display: flex;
     justify-content: center;
 }
 
 .about-us-wrapper {
     position: relative;
+    margin-bottom: 15em;
 }
 
 .about-us-wrapper > #about-us-1, .about-us-wrapper > #about-us-2 {
@@ -37,6 +37,7 @@
 
 .about-us-wrapper > hr {
     width: 30em;
+    margin-bottom: 2em;
 }
 
 .about-us-wrapper .paragraphs-container {

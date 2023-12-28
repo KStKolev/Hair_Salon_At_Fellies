@@ -21,6 +21,7 @@
 
 .services > hr {
     width: 15em;
+    margin-bottom: 3em;
 }
 
 .service-container > * {
@@ -45,12 +46,17 @@
     padding: 0.8em;
     text-transform: uppercase;
     background-color: black;
-    color: #ede7e7;
     border-radius: 3%;
     position: relative;
     left: 28%;
 }
 
+.service-container > * > button > a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #ede7e7;
+}
+
 .color {
-    margin-left: 8.5em;
+    margin-left: 5.5em;
 }
