@@ -1,10 +1,15 @@
+textarea:focus, input:focus {
+    outline:none;
+}
+
+
 .hair-booking {
     width: 62.5%;
     display: grid;
     justify-content: center;
     position: relative;
     left: 18%;
-    margin-bottom: 15em;
+    margin-bottom: 18em;
 }
 
 .hair-booking h1, .booking-wrap > div > label, .booking-wrap p, .booking-wrap > button > a {
@@ -75,18 +80,18 @@
 }
 
 .booking-wrap > button {
-    padding: 1.5em;
     border-radius: 0.7em;
     position: relative;
-    left: 46%;
     margin-top: 1em;
     background-color: black;
 }
 
 .booking-wrap > button > a {
+    display: block;
     text-decoration: none;
     font-size: 1.5em;
     color: rgb(236, 238, 240);
+    padding: 1em;
 }
 
 .service-Booking {
@@ -101,4 +106,14 @@
     position: absolute;
     top: 42%;
     right: -2%;
+}
+
+.submit {
+    left: 46%;
+}   
+
+.call-us {
+    position: relative;
+    top: 2%;
+    left: 45.6%;
 }
