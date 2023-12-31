@@ -8,14 +8,17 @@
     justify-content:center;
 }
 
-.services > h1 {
-    text-align: center;
-    font-size: 2.5em;
+.services > h1, .service-container > * > button > a {
     text-transform: uppercase;
     color: #1d071989;
     font-weight: 600;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
+}
+
+.services > h1 {
+    text-align: center;
+    font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
@@ -41,21 +44,18 @@
 }
 
 .service-container > * > button {
-    width: 6.8em;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    background-color: black;
-    border-radius: 3%;
+    display: block;
+    height: 4em;
+    border-radius: 5%;
+    border: 1px solid #092635;
     position: relative;
-    left: 28%;
+    left: 25%;
 }
 
 .service-container > * > button > a {
-    display: block;
     text-decoration: none;
-    font-size: 1em;
-    color: #ede7e7;
-    padding: 1em;
+    font-size: 1.5em;
+    padding: 2em;
 }
 
 .color {
