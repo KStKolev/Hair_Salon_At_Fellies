@@ -1,0 +1,141 @@
+footer > hr {
+    width: 88em;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5em;
+}
+
+/*Socials container*/
+
+.socials {
+    position: relative;
+    right: 5%;
+}
+
+.socials > h3, .socials > ul > li, .contact > h3, .contact > ul > li,
+.customer-service > h3, .customer-service > ul > li > a {
+    color: #1d071989;
+    font-weight: 600;
+}
+
+.socials > h3, .contact > h3, .customer-service > h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 2.2px;
+    word-spacing: 1.2px;
+    position: relative;
+}
+
+.socials > h3 {
+    left: 25%;
+}
+
+.socials > hr {
+    width: 8.5em;
+    margin-bottom: 2em;
+    position: relative;
+    left: 6.5%;
+}
+
+.socials > ul, .contact > ul, .customer-service > ul {
+    list-style-type: none;
+}
+
+.socials > ul > li, .contact > ul > li, .customer-service > ul > li {
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+.socials > ul > li {
+    margin-bottom: 0.6em;
+}
+
+.facebook {
+    color: #316FF6;
+}
+
+.instagram {
+    font-size: 1.4em;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twitter {
+    color: white;
+    background-color: black;
+    margin-top: 0.5em;
+}
+
+/*Contact container*/
+
+.contact > hr {
+    width: 10em;
+    position: relative;
+    left: 6%;
+    margin-bottom: 2.3em;
+}
+
+.contact > h3 {
+    left: 38%;
+}
+
+.contact > ul {
+    position: relative;
+    left: 20%;
+}
+
+.contact > ul > li {
+    margin-bottom: 1em;
+}
+
+.contact > ul > li > a, .customer-service > ul > li > a {
+    text-decoration: none;
+}
+
+
+.house, .envelope, .phone {
+    color: black;
+}
+
+/*Customer-service container*/
+
+.customer-service {
+    position: relative;
+    left: 1%;
+}
+
+.customer-service > hr {
+    margin-bottom: 2em;
+}
+
+.customer-service > ul {
+    text-align: center;
+    position: relative;
+    right: 12%;
+}
+
+.customer-service > ul > li {
+    margin-bottom: 1em;
+}
+
+.customer-service > ul > li > a {
+    color: #1d071989;
+}
+
+/*Logo container*/
+
+.logo {
+    position: relative;
+    right: 7%;
+}
+
+.logo > img {
+    width: 20em;
+    height: 20em;
+    position: inherit;
+    bottom: 8%;
+}
