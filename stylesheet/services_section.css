@@ -34,6 +34,9 @@
 .service-container > * > img {
     width: 20em;
     height: 20em;
+    -webkit-box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
+    -moz-box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
+    box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
 }
 
 .service-container > * > h2 {
