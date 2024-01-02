@@ -4,6 +4,7 @@
 @import "/stylesheet/recent_posted_section.css";
 @import "/stylesheet/booking_section.css";
 @import "/stylesheet/footer.css";
+@import "/stylesheet/newsletter_section.css";
 
 html, body {
     margin: 0;
