@@ -3,7 +3,7 @@
 .newsletter {
     height: 40em;
     background-image: url("/pictures_document/products.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5%;
 
@@ -18,7 +18,7 @@
 }
 
 .newsletter > * {
-    color: #c5d4f170;
+    color: #1d071900;
     text-align: center;
     position: relative;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -130,7 +130,7 @@
 }
 
 .news-input > button > a {
-    color: #c5d4f170;
+    color: #1d071989;
     text-decoration: none;
     text-shadow: 1px 1px 1px rgb(8, 4, 34);
 }

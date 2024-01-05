@@ -1,6 +1,6 @@
 .opening {
         background: url("/pictures_document/1.jpg");
-        background-size: 110% 100%;
+        background-size: cover;
         height: 45em;
         width: 100%;
         margin-bottom: 15em;

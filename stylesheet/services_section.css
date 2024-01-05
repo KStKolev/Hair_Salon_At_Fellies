@@ -37,6 +37,12 @@
     -webkit-box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
     -moz-box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
     box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
+    transition: 0.3s ease-in-out;
+}
+
+.service-container > * > img:hover {
+    filter: brightness(90%) contrast(120%);
+    transform: translateY(-1em);
 }
 
 .service-container > * > h2 {
