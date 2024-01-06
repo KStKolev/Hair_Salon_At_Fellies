@@ -1,8 +1,12 @@
+/*recent-posts container*/
+
 .recent-posted {
     margin-bottom: 15em;
     display: grid;
     justify-content: center;
 }
+
+/*recent-posts header, container text and button text*/
 
 .recent-posted h1, .posts-wrap > div *, .all-posts > a {
     text-transform: uppercase;
@@ -10,6 +14,7 @@
     font-weight: 600;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .recent-posted h1 {
@@ -22,6 +27,8 @@
     width: 15.5em;
     margin-bottom: 6em;
 }
+
+/*post wrap container*/
 
 .posts-wrap {
     display: flex;
@@ -39,10 +46,21 @@
     box-shadow: -3px 24px 56px -2px rgba(0,0,0,0.5);
 }
 
+/*recent-post elements - image, header, paragraph and button*/
+
+.post-1 {
+    margin-left: 6em;
+}
+
 .posts-wrap > div > img {
     height: 22em;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    transition: 0.2s ease-in-out;
+}
+
+.posts-wrap > div > img:hover {
+    filter: brightness(90%) contrast(120%);
 }
 
 .posts-wrap > div > h3 {
@@ -57,29 +75,36 @@
     padding: 0.5em;
 }
 
-.posts-wrap > div > button {
-    margin-bottom: 2em;
-    position: relative;
-    left: 25%;
-}
-
 .posts-wrap > div > button, .all-posts {
-    display: block;
-    height: 3.5em;
+    border: none;
+    border-radius: 12px;
+    background: hsl(340, 6%, 21%);
+    position: relative;
+    padding: 0;
 }
 
 .posts-wrap > div > button > a, .all-posts > a {
+    display: block;
+    background: hsl(347, 9%, 68%);
+    border-radius: 12px;
     text-decoration: none;
-    padding: 2em;
+    padding: 1.5em;
+    transition: 0.4s ease-in-out;
+    transform: translate(-4px, -4px);
 }
 
-.post-1 {
-    margin-left: 6em;
+.posts-wrap > div > button {
+    margin-bottom: 3em;
+    left: 29%;
 }
 
 .all-posts {
-    width: 14%;
+    width: 12%;
     margin-top: 5em;
-    position: relative;
-    left: 43.5%;
+    left: 44.5%;
+}
+
+.all-posts > a:hover, .posts-wrap > div > button > a:hover {
+    transform: translate(-4%, -12%);
+    filter: saturate(200%);
 }

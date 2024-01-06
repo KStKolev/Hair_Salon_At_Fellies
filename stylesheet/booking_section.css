@@ -1,7 +1,4 @@
-textarea:focus, input:focus, select:focus {
-    outline:none;
-}
-
+/*booking container*/
 
 .hair-booking {
     width: 62.5%;
@@ -12,11 +9,14 @@ textarea:focus, input:focus, select:focus {
     margin-bottom: 18em;
 }
 
-.hair-booking h1, .booking-wrap > div > label, .booking-wrap p, .booking-wrap > button > a {
+/*booking header, label, paragraph and button text*/
+
+.hair-booking h1, .booking-wrap > div > label, .booking-wrap p, .submit > a {
     text-transform: uppercase;
     color: #1d071989;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .hair-booking h1 {
@@ -31,6 +31,7 @@ textarea:focus, input:focus, select:focus {
     margin-bottom: 4em;
 }
 
+/*booking-wrapper width and text elements*/
 .booking-wrap {
     width: 75em;
 }
@@ -44,11 +45,15 @@ textarea:focus, input:focus, select:focus {
     margin-bottom: 2.5em;
 }
 
+/*setting the asterisks of every label to red color.*/
+
 .name-Booking > label:after, .email-Booking > label:after, .phone-Booking > label:after, 
 .date-Booking > label:after, .service-Booking > label:after {
     content: "*";
     color: red;
 }
+
+/* booking of label, textarea, select and button*/
 
 .booking-wrap > div > label, .booking-wrap > div > textarea {
     font-size: 1.4em;
@@ -63,6 +68,7 @@ textarea:focus, input:focus, select:focus {
     word-spacing: 1.2px;
     padding: 1em;
     border: 1px solid #cccccc;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .booking-wrap > div > textarea {
@@ -79,23 +85,11 @@ textarea:focus, input:focus, select:focus {
     appearance: none;
 }
 
-.booking-wrap > button {
-    display: block;
-    height: 4em;
-    border-radius: 7%;
-    border: 1px solid #092635;
-    margin-top: 1em;
+textarea:focus, input:focus, select:focus {
+    outline:none;
 }
 
-.booking-wrap > button > a {
-    color: #1d071989;
-    text-decoration: none;
-    letter-spacing: 2.2px;
-    word-spacing: 1.2px;
-    font-size: 1.5em;
-    font-weight: 600;
-    padding: 1em;
-}
+/*service booking checker creating and styling*/
 
 .service-Booking {
     position: relative;
@@ -111,7 +105,32 @@ textarea:focus, input:focus, select:focus {
     right: -2%;
 }
 
+/*booking submit button*/
+
+
 .submit {
+    background: hsl(340, 6%, 21%);
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    margin-top: 1em;
     position: relative;
     left: 44%;
-}   
+}
+
+.submit > a {
+    display: block;
+    background: hsl(347, 9%, 68%);
+    border-radius: 12px;
+    color: #1d071989;
+    font-size: 1.8em;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    transform: translate(-4px, -4px);
+    padding: 1em;
+}
+
+.submit > a:hover {
+    transform: translate(-4%, -12%);
+    filter: saturate(200%);
+}

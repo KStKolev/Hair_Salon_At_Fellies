@@ -23,6 +23,7 @@ footer > hr {
 .customer-service > h3, .customer-service > ul > li > a, .copyright  {
     color: #1d071989;
     font-weight: 600;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .socials > h3, .contact > h3, .customer-service > h3 {

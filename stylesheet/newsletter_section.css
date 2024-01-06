@@ -1,12 +1,9 @@
 /*Newsletter container*/
 
 .newsletter {
-    height: 40em;
     background-image: url("/pictures_document/products.png");
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
-
     display: grid;
     justify-content: center;
 }
@@ -14,25 +11,27 @@
 .newsletter > h2, .newsletter > p, .news-input > *, .news-input > button > a {
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
-    font-weight: 600;
+    text-align: center;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .newsletter > * {
-    color: #1d071900;
-    text-align: center;
+    color: #28323ce5;
     position: relative;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.newsletter > h2, .newsletter > p {
+    width: 28em;
+    margin-bottom: 2em;
 }
 
 .newsletter > h2 {
     font-size: 2.5em;
-    width: 28em;
     top: 15%;
 }
 
 .newsletter > p {
     font-size: 1.6em;
-    width: 30em;
     left: 17%;
 }
 
@@ -42,7 +41,6 @@
 .news-input {
     display: grid;
     justify-content: center;
-    margin-bottom: 5em;
 }
 
 .news-input > * {
@@ -55,82 +53,65 @@
 	display: flex;
 	align-items: center;
 	position: relative;
+    margin-bottom: 2.5em;
 }
 
 .input {
-	font-size: 19px;
-	background: #FFFFFF;
-	border: 1px outset #C4B3B8;
-	border-radius: 5px;
-	box-shadow: 1px 4px 2px -3px #E2E2E2;
-	transition: .3s ease;
-    padding: 7px 10px;
-	padding-left: 36px;
-    margin-left: 1em;
+	font-size: 1.3em;
+	border: none;
+	border-radius: 12px;
+    padding: 10px 0 8px 36px;
+    margin-left: 1.5em;
+    transition: .3s ease;
 }
 
 .input:focus {
-	background: #F2F2F2;
-	border: 1px solid #cac8c8;
-	border-radius: 10px;
+	background: #454343;
 }
 
-.input::placeholder {
+.input::placeholder, .input:focus {
 	color: #DDDDDD;
 }
 
 .search_icon_1, .search_icon_2 {
-    position: absolute;
+	width: 1.2em;
+	height: 1.2em;
     fill: #C9BFC2;
-	width: 19px;
-	height: 19px;
+    position: absolute;
 }
 
 .search_icon_1 {
-	position: absolute;
-	left: 4.5%;
+	left: 6%;
 }
 
 .search_icon_2 {
-	left: 54.5%;
+	left: 56.2%;
 }
 
 .news-input > button {
-  font-size: 18px;
   width: max-content;
-  align-items: center;
-  background-color: #FCFCFD;
-  border-radius: 4px;
-  border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  cursor: pointer;
-  font-family: "JetBrains Mono", monospace;
-  height: 48px;
-  justify-content: center;
-  padding-left: 16px;
-  padding-right: 16px;
+  font-size: 1.3em;
+  background: hsl(340, 6%, 21%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  margin-bottom: 4em;
   position: relative;
-  top: 15%;
   left: 40%;
-  transition: box-shadow .15s,transform .15s;
-}
-
-.news-input > button {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
-
-.news-input > button:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-.news-input > button:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
-  transform: translateY(2px);
 }
 
 .news-input > button > a {
+    display: block;
     color: #1d071989;
     text-decoration: none;
-    text-shadow: 1px 1px 1px rgb(8, 4, 34);
+    background: hsl(347, 9%, 68%);
+    border-radius: 12px;
+    padding: 0.5em 1.5em;
+    transform: translate(-4px, -4px);
+    transition: 0.3s ease-in-out;
+}
+
+.news-input > button > a:hover {
+    filter: saturate(200%);
+    transform: translate(-4%, -12%);
 }

@@ -1,3 +1,5 @@
+/*services container*/
+
 .services {
     margin-bottom: 15em;
 }
@@ -8,18 +10,29 @@
     justify-content:center;
 }
 
-.services > h1, .service-container > * > button > a {
+/*service headers and buttons text*/
+
+.services > h1, .service-button > a {
     text-transform: uppercase;
     color: #1d071989;
     font-weight: 600;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .services > h1 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 0.5em;
+}
+
+.service-container > * > h2 {
+    text-align: center;
+    color: #1d071989;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .services > hr {
@@ -29,6 +42,12 @@
 
 .service-container > * {
     margin-right: 5.5em;
+}
+
+/*service images*/
+
+.color {
+    margin-left: 5.5em;
 }
 
 .service-container > * > img {
@@ -45,28 +64,30 @@
     transform: translateY(-1em);
 }
 
-.service-container > * > h2 {
-    text-align: center;
-    color: #1d071989;
-    font-size: 1.8em;
-    text-transform: uppercase;
-}
+/*service buttons*/
 
-.service-container > * > button {
-    display: block;
-    height: 4em;
-    border-radius: 5%;
-    border: 1px solid #092635;
+.service-button {
+    background: hsl(340, 6%, 21%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
     position: relative;
     left: 25%;
 }
 
-.service-container > * > button > a {
+.service-button > a {
+    background: hsl(347, 9%, 68%);
+    display: block;
     text-decoration: none;
-    font-size: 1.5em;
-    padding: 2em;
+    font-size: 1.6em;
+    padding: 0.7em 2em;
+    border-radius: 12px;
+    transition: 0.4s ease-in-out;
+    transform: translate(-4px, -4px);
 }
 
-.color {
-    margin-left: 5.5em;
+.service-button > a:hover {
+    transform: translate(-4%, -12%);
+    filter: saturate(200%);
 }
