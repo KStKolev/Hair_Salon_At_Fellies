@@ -54,12 +54,13 @@ footer > hr {
     letter-spacing: 0.5px;
 }
 
-.socials > ul > li {
-    margin-bottom: 0.6em;
-}
-
 .facebook {
     color: #316FF6;
+}
+
+.instagram-anchor {
+    display: flex;
+    margin-top: 1em;
 }
 
 .instagram {
@@ -67,8 +68,11 @@ footer > hr {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: relative;
-    right: 5%;
+    margin-left: 0.4em;
+}
+
+.X-anchor {
+    margin-top: 0.3em;
 }
 
 .twitter {
