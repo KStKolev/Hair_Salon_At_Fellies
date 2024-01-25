@@ -1,5 +1,5 @@
 .opening {
-        background: url("/pictures_document/1.jpg");
+        background: url("/pictures_document/2.jpg");
         background-size: cover;
         height: 45em;
         width: 100%;
@@ -8,8 +8,7 @@
 
 .opening-wrapper {
     position: relative;
-    top: 47%;
-    right: 8%;
+    top: 40%;
 }
 
 .opening-wrapper > * {

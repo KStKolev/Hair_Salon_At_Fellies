@@ -1,10 +1,11 @@
 .nav-display {
     width: 100%;
-    height: 90px;
+    height: 55px;
     background-color: rgb(57, 56, 59);
     position: fixed;
     z-index: 1;
     transition: 0.3s ease-in-out;
+    box-shadow: 2px 1px 5px rgb(8, 8, 8);
 }
 
 .nav-list {
@@ -13,12 +14,11 @@
     justify-content: center;
     margin-top: 1.5em;
     position: relative;
-    bottom: 18%;
-    right: 2.5%;
+    bottom: 45%;
 }
 
 .nav-hidden {
-    transform: translateY(-90px);
+    transform: translateY(-60px);
 }
 
 .nav-logo {
@@ -27,22 +27,22 @@
 }
 
 .nav-logo > img {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
 }
 
 .nav-list > li {
     height: inherit;
     list-style: none;
-    margin: 1em 2em 0 auto;
+    margin: 1em 5.5em 0 auto;
 }
 
 .nav-list > li > a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     font-weight: 600;
     color: #c5bbb7;
     word-spacing: 1.2px;
-    text-shadow: 5px 2px 2px rgb(23, 30, 30);
+    text-shadow: 1px 3px 2px rgba(44, 52, 52, 0.696);
 }
