@@ -12,13 +12,13 @@
 
 /*service headers and buttons text*/
 
-.services > h1, .service-button > a {
+.services > h1, .service-button > a, .service-container > * > h2 {
     text-transform: uppercase;
     color: #1d071989;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
-    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
+    text-shadow: 0px 1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .services > h1 {
@@ -29,10 +29,7 @@
 
 .service-container > * > h2 {
     text-align: center;
-    color: #1d071989;
     font-size: 1.8em;
-    text-transform: uppercase;
-    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .services > hr {
@@ -67,17 +64,16 @@
 /*service buttons*/
 
 .service-button {
-    background: hsl(340, 6%, 21%);
+    background: hsl(337, 13%, 27%);
     border-radius: 12px;
     border: none;
     padding: 0;
-    cursor: pointer;
     position: relative;
-    left: 25%;
+    left: 25.7%;
 }
 
 .service-button > a {
-    background: hsl(347, 9%, 68%);
+    background: hsl(353, 5%, 71%);
     display: block;
     text-decoration: none;
     font-size: 1.6em;
@@ -89,5 +85,5 @@
 
 .service-button > a:hover {
     transform: translate(-4%, -12%);
-    filter: saturate(200%);
+    filter: saturate(180%);
 }

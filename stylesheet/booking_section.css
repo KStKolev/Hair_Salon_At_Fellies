@@ -16,13 +16,13 @@
     color: #1d071989;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
-    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
+    text-shadow: 0px 1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .hair-booking h1 {
     text-align: center;
     font-size: 2.5em;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 0.5em;
 }
 
@@ -68,14 +68,14 @@
     word-spacing: 1.2px;
     padding: 1em;
     border: 1px solid #cccccc;
-    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
+    text-shadow: 0px -1px 1px rgb(164, 159, 159);
 }
 
 .booking-wrap > div > textarea {
     height: 10em;
     resize: none;
     width: 100.4%;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .booking-wrap > div > select {
@@ -97,11 +97,11 @@ textarea:focus, input:focus, select:focus {
 
 .service-Booking:after {
     content: '>';
-    font: 3em "Consolas", monospace;
+    font: 2.5em "Consolas", monospace;
     color: #1d071989;
     transform: rotate(90deg);
     position: absolute;
-    top: 42%;
+    top: 48%;
     right: -2%;
 }
 
@@ -109,8 +109,7 @@ textarea:focus, input:focus, select:focus {
 
 
 .submit {
-    background: hsl(340, 6%, 21%);
-    border: none;
+    background: hsl(337, 13%, 27%);
     border-radius: 12px;
     padding: 0;
     margin-top: 1em;
@@ -120,7 +119,7 @@ textarea:focus, input:focus, select:focus {
 
 .submit > a {
     display: block;
-    background: hsl(347, 9%, 68%);
+    background: hsl(353, 5%, 71%);
     border-radius: 12px;
     color: #1d071989;
     font-size: 1.8em;
@@ -132,5 +131,5 @@ textarea:focus, input:focus, select:focus {
 
 .submit > a:hover {
     transform: translate(-4%, -12%);
-    filter: saturate(200%);
+    filter: saturate(180%);
 }

@@ -11,8 +11,8 @@
 }
 
 .about-us-wrapper > #about-us-1, .about-us-wrapper > #about-us-2 {
-    height: 17em;
-    width: 20em;
+    height: 280px;
+    width: 340px;
     position: absolute;
 }
 
@@ -30,10 +30,10 @@
 
 .about-us-wrapper > h1, .about-us-wrapper .paragraphs-container > p {
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     color: #1d071989;
     word-spacing: 1.2px;
-    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
+    text-shadow: 0px 1px 1px rgba(99, 99, 99, 0.7);
 }
 
 

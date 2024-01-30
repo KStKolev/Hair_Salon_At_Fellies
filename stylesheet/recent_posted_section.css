@@ -11,10 +11,10 @@
 .recent-posted h1, .posts-wrap > div *, .all-posts > a {
     text-transform: uppercase;
     color: #1d071989;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 2.2px;
     word-spacing: 1.2px;
-    text-shadow: 0px -1px 1px rgba(99, 99, 99, 0.7);
+    text-shadow: 0px 1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .recent-posted h1 {
@@ -60,7 +60,7 @@
 }
 
 .posts-wrap > div > img:hover {
-    filter: brightness(90%) contrast(120%);
+    filter: brightness(95%) contrast(135%);
 }
 
 .posts-wrap > div > h3 {
@@ -78,14 +78,14 @@
 .posts-wrap > div > button, .all-posts {
     border: none;
     border-radius: 12px;
-    background: hsl(340, 6%, 21%);
+    background: hsl(337, 13%, 27%);
     position: relative;
     padding: 0;
 }
 
 .posts-wrap > div > button > a, .all-posts > a {
     display: block;
-    background: hsl(347, 9%, 68%);
+    background: hsl(353, 5%, 71%);
     border-radius: 12px;
     text-decoration: none;
     padding: 1.5em;
@@ -106,5 +106,5 @@
 
 .all-posts > a:hover, .posts-wrap > div > button > a:hover {
     transform: translate(-4%, -12%);
-    filter: saturate(200%);
+    filter: saturate(180%);
 }

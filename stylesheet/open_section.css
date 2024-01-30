@@ -17,6 +17,7 @@
     text-transform: uppercase;
     color: #ede7e7;
     text-align: center;
+    text-shadow: 3px 3px 2px rgb(2, 0, 0);
 }
 
 .opening-wrapper > h1 {
