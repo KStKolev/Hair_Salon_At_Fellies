@@ -14,7 +14,7 @@
     justify-content: center;
     margin-top: 1.5em;
     position: relative;
-    bottom: 45%;
+    bottom: 50%;
 }
 
 .nav-hidden {
@@ -23,7 +23,7 @@
 
 .nav-logo {
     position: relative;
-    bottom: 2.8em;
+    bottom: 2.5em;
 }
 
 .nav-logo > img {
@@ -34,7 +34,7 @@
 .nav-list > li {
     height: inherit;
     list-style: none;
-    margin: 1em 5em 0 auto;
+    margin: 1em 5.5em 0 auto;
 }
 
 .nav-list > li > a {

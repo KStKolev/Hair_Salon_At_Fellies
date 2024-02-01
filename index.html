@@ -137,16 +137,17 @@
                 <div class="service-Booking">
                     <label for="service">Service</label>
                     <br>
-                    <select name="service" id="service">
-                        <option value="color">Color</option>
-                        <option value="haircut">Haircut</option>
-                        <option value="extensions">Extensions</option>
-                    </select>
+                    <button class="open-booking-service">Choose a service</button>
+                    <ul class="service-list hidden">
+                        <li>Color</li>
+                        <li>Haircut</li>
+                        <li>Extensions</li>
+                    </ul>
                 </div>
                 <div class="message-Booking">
                     <label for="message">Message</label>
                     <br>
-                    <textarea name="message" id="message"></textarea>
+                    <textarea name="message" id="message" placeholder="Write here if you have any questions!"></textarea>
                 </div>
                 <button class="submit">
                     <a href="">Submit</a>
@@ -289,5 +290,7 @@
         <script src="/script/Scroll_Nav-bar.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
         <script src="/script/Date_Format.js"></script>
+        <script src="/script/Clear_Placeholder.js"></script>
+        <script src="/script/Toggle_Booking_Service.js"></script>
     </body>
 </html>

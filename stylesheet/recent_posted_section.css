@@ -62,15 +62,17 @@
 }
 
 .posts-wrap > div > h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
+    padding-left: 0.4em;
 }
 
 .posts-wrap > div > p {
     text-align: center;
     font-weight: 400;
-    font-size: 1.1em;
-    padding: 0.5em;
+    font-size: 1em;
+    padding: 1em;
+    text-transform: capitalize;
 }
 
 .posts-wrap > div > button, .all-posts {

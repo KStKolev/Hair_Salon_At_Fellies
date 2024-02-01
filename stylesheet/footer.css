@@ -35,7 +35,7 @@ footer > hr {
 }
 
 .socials > h3 {
-    left: 25%;
+    left: 20%;
 }
 
 .socials > hr {
@@ -86,12 +86,12 @@ footer > hr {
 .contact > hr {
     width: 10em;
     position: relative;
-    left: 6%;
+    left: 10%;
     margin-bottom: 2.3em;
 }
 
 .contact > h3 {
-    left: 38%;
+    left: 37%;
 }
 
 .contact > ul {
@@ -126,7 +126,7 @@ footer > hr {
 .customer-service > ul {
     text-align: center;
     position: relative;
-    right: 12%;
+    right: 8%;
 }
 
 .customer-service > ul > li {

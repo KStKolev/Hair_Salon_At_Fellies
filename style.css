@@ -11,12 +11,19 @@
 @import "https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css";
 @import "https://npmcdn.com/flatpickr/dist/themes/airbnb.css";
 
+@font-face {
+    font-family: 'BookmanOldStyle';
+    src: url('/stylesheet/Bookman_Old_Style_Font/Bookman\ Old\ Style\ Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'BookmanOldStyle', serif;
 }
 
 body {
     background-color: rgb(236, 238, 240);
-    font-family: "Courier New", Courier, monospace;
 }

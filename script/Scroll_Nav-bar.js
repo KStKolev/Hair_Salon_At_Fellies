@@ -6,7 +6,7 @@ let lastScrollY = window.scrollY;
 window.addEventListener("scroll", () => {
   const currentScrollY = window.scrollY;
 
-  if (currentScrollY == 0) {
+  if (currentScrollY === 0) {
     navbar.classList.remove("nav-hidden");
   } else {
     if (lastScrollY > currentScrollY) {
