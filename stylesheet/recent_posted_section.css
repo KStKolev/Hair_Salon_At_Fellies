@@ -1,14 +1,14 @@
 /*recent-posts container*/
 
 .recent-posted {
-    margin-bottom: 15em;
     display: grid;
     justify-content: center;
+    margin-bottom: 13em;
 }
 
 /*recent-posts header, container text and button text*/
 
-.recent-posted h1, .posts-wrap > div *, .all-posts > a {
+.recent-posted h1, .posts-wrap > div *, .all-posts > a  {
     text-transform: uppercase;
     color: #1d071989;
     font-weight: 400;
@@ -38,10 +38,10 @@
 
 .posts-wrap > div {
     width: 22em;
-    border: 1px solid rgb(165, 155, 148);
     border-radius: 5%;
     margin-right: 5em;
-    box-shadow: -3px 24px 56px -2px rgba(0,0,0,0.5);
+    overflow: hidden;
+    box-shadow: -2px 8px 10px 0px rgba(0,0,0,0.5);
 }
 
 /*recent-post elements - image, header, paragraph and button*/
@@ -51,9 +51,9 @@
 }
 
 .posts-wrap > div > img {
-    height: 22em;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
     transition: 0.2s ease-in-out;
 }
 
@@ -75,36 +75,38 @@
     text-transform: capitalize;
 }
 
-.posts-wrap > div > button, .all-posts {
-    border: none;
-    border-radius: 12px;
+.read-container, .all-posts  {
+    width: fit-content;
     background: hsl(337, 13%, 27%);
-    position: relative;
-    padding: 0;
-}
-
-.posts-wrap > div > button > a, .all-posts > a {
-    display: block;
-    background: hsl(353, 5%, 71%);
     border-radius: 12px;
-    text-decoration: none;
-    padding: 1.5em;
-    transition: 0.4s ease-in-out;
-    transform: translate(-4px, -4px);
+    margin-bottom: 3em;
+    position: relative;
+    left: 28%;
 }
 
-.posts-wrap > div > button {
-    margin-bottom: 3em;
-    left: 29%;
+.read-container > a, .all-posts > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1.1em;
+    border-radius: inherit;
+    background: hsl(353, 5%, 71%);
+    text-shadow: 0px -1px 1px rgb(164, 159, 159);
+    transition: 0.4s ease-in-out;
+    transform: translate(-4px, -5px);
+}
+
+.all-posts > a {
+    font-size: 1.2em;
+    padding: 1.4em;
 }
 
 .all-posts {
-    width: 12%;
     margin-top: 5em;
-    left: 44.5%;
+    left: 45%;
 }
 
-.all-posts > a:hover, .posts-wrap > div > button > a:hover {
+.all-posts > a:hover, .read-container > a:hover {
     transform: translate(-4%, -12%);
     filter: saturate(180%);
 }

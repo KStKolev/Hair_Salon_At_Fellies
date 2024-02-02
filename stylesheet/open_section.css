@@ -1,9 +1,9 @@
 .opening {
-        background: url("/pictures_document/2.jpg");
+        background: url("/pictures_document/opening-model.jpg");
         background-size: cover;
         height: 45em;
         width: 100%;
-        margin-bottom: 15em;
+        margin-bottom: 10em;
 }
 
 .opening-wrapper {

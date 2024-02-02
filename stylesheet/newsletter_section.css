@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     display: grid;
     justify-content: center;
+    margin-bottom: 14em;
 }
 
 .newsletter > h2, .newsletter > p, .news-input > *, .news-input > button > a {
@@ -25,13 +26,12 @@
     width: 900px;
     font-size: 2.7em;
     margin-bottom: 4em;
-    top: 60%;
+    top: 50%;
 }
 
 .newsletter > p {
     width: 750px;
     font-size: 1.5em;
-    top: 15%;
     left: 8%;
 }
 
@@ -41,7 +41,7 @@
 .news-input {
     display: grid;
     justify-content: center;
-    top: 20%;
+    top: 10%;
     right: 3%;
 }
 

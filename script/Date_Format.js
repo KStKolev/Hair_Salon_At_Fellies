@@ -8,7 +8,7 @@ const currentDate = new Date();
 */
 // Work time: 9:30AM - 5:00PM
 
-if (currentDate.getHours() > 17) {
+if (currentDate.getHours() >= 17) {
   currentDate.setDate(currentDate.getDate() + 1);
   currentDate.setHours(9);
   currentDate.setMinutes(30);
