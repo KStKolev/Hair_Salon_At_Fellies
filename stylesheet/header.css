@@ -1,3 +1,5 @@
+/*Navigation display*/
+
 .nav-display {
     width: 100%;
     height: 55px;
@@ -21,6 +23,8 @@
     transform: translateY(-60px);
 }
 
+/*navigation logo*/
+
 .nav-logo {
     position: relative;
     bottom: 2.5em;
@@ -31,17 +35,46 @@
     height: 110px;
 }
 
-.nav-list > li {
-    height: inherit;
-    list-style: none;
-    margin: 1em 5.5em 0 auto;
-}
+/*navigation elements*/
 
-.nav-list > li > a {
+.nav-list > li > a, .nav-services > span, .services-selector > li {
     text-decoration: none;
     font-size: 1.55em;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     color: #d6d4d3;
     text-shadow: 3px 2px 3px rgb(25, 24, 24);
+}
+
+.nav-list > li, .services-selector > li {
+    list-style: none;
+}
+
+.nav-list > li {
+    margin: 1em 5em 0 auto;
+}
+
+/*services selector element*/
+
+.nav-services {
+    display: grid;
+    gap: 13px;
+}
+
+.nav-services > span {
+    width: fit-content;
+}
+
+.services-selector {
+    padding: 0;
+}
+
+.services-selector > li {
+    font-size: 1.2em;
+    padding: 0.5em;
+    background-color: #524843;
+    border: 1px solid rgb(101, 95, 95);
+    border-top: none;
+    position: relative;
+    right: 10%;
 }
