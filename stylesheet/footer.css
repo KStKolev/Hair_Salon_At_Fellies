@@ -1,5 +1,5 @@
-footer > hr {
-    border: 1px solid rgb(134, 124, 124);
+footer {
+    border-top: 1px solid rgb(134, 124, 124);
 }
 
 .start-section {
@@ -9,6 +9,7 @@ footer > hr {
 .footer-section {
     display: grid;
     justify-content: center;
+    margin-top: 2.5em;
 }
 
 /*Logo container*/

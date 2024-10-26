@@ -23,6 +23,7 @@ html, body {
     padding: 0;
     font-family: 'BookmanOldStyle', serif;
     cursor:default;
+    display: grid;
 }
 
 body {
