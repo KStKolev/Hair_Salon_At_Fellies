@@ -44,3 +44,14 @@ Afterwards you should be set and the application should already be launched!
 <div align="center">
     <img src="https://github.com/user-attachments/assets/f4fd350a-910c-4702-b37a-b083cbd82a7c" width="500"/>
 </div>
+
+<br/>
+
+<center>
+
+| ![Image 1](https://github.com/user-attachments/assets/ee531e60-e06b-4b74-ae28-98890c7bbe7e) | ![Image 2](https://github.com/user-attachments/assets/75005ffb-51e5-4b4f-8dea-741cac17a84d) | ![Image 3](https://github.com/user-attachments/assets/dbfccd37-181d-4a9c-bfb8-ca536b65eed3) |
+|:---:|:---:|:---:|
+
+</center>
+
+- Demonstrating the application's responsiveness 😊.
