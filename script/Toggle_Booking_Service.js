@@ -1,5 +1,3 @@
-//Toggle the service list of booking section. Set the display from none to block and vice versa.
-
 var serviceButton = document.querySelector(".open-booking-service");
 
 serviceButton.addEventListener("click", function () {
@@ -10,8 +8,6 @@ serviceButton.addEventListener("click", function () {
     optionsList.classList.add("hidden");
   }
 });
-
-//Set the service button's text to the booking's button
 
 var bookingServices = Array.from(
   document.querySelectorAll(".service-list > li > button")

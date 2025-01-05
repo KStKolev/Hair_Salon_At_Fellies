@@ -2,69 +2,49 @@ footer {
     border-top: 1px solid rgb(134, 124, 124);
 }
 
-.start-section {
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 2.5em;
+    gap: 2em;
     margin-bottom: 2em;
 }
 
-.footer-section {
-    display: grid;
-    justify-content: center;
-    margin-top: 2.5em;
-}
-
-/*Logo container*/
-
 .logo > img {
-    width: 20em;
-    height: 20em;
-    position: relative;
-    right: 6%;
+    width: 350px;
+    height: 350px;
 }
 
-/*Socials container*/
-
-.socials > h3, .socials > ul > li, .contact > h3, .contact > ul > li,
-.customer-service > h3, .customer-service > ul > li > a, .copyright  {
+.socials > h3, .socials > ul > li, .contact > h3, 
+.contact > ul > li, .copyright  {
     color: #1d071989;
     font-weight: 400;
     text-shadow: 0px 1px 1px rgba(99, 99, 99, 0.7);
 }
 
-.socials > h3, .contact > h3, .customer-service > h3 {
+.socials > h3, .contact > h3 {
     text-transform: uppercase;
     font-size: 1.5em;
-    letter-spacing: 2.2px;
-    word-spacing: 1.2px;
-    position: relative;
 }
 
 .socials > h3 {
-    left: 26%;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 1px solid #1d071989;
+    padding-bottom: 0.5em;
 }
 
-.socials > hr {
-    width: 9em;
-    margin-bottom: 2em;
-    position: relative;
-    right: 4.5%;
+.socials > ul, .contact > ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 1em;
 }
 
-.socials > ul > li {
-    text-align: center;
-    position: relative;
-    right: 11%;
-}
-
-.socials > ul, .contact > ul, .customer-service > ul {
-    list-style-type: none;
-}
-
-.socials > ul > li, .contact > ul > li, .customer-service > ul > li, .copyright  {
+.socials > ul > li, .contact > ul > li, .copyright  {
     font-size: 1.1em;
-    letter-spacing: 0.5px;
 }
-
-/*social platforms icons*/
 
 .facebook {
     color: #316FF6;
@@ -73,28 +53,21 @@ footer {
 
 .instagram-anchor {
     display: flex;
-    margin-top: 0.8em;
-    position: inherit;
-    left: 17%;
+    gap: 0.25em;
 }
 
 .instagram {
     font-size: 1.4em;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-left: 0.4em;
     transition: 0.8s ease-in-out;
-}
-
-.X-anchor {
-    margin-top: 0.3em;
 }
 
 .twitter {
     color: white;
     background-color: black;
-    margin-top: 0.5em;
     transition: 0.8s ease-in-out;
 }
 
@@ -102,67 +75,45 @@ footer {
    transform: rotate(360deg);
 }
 
-/*Customer-service container*/
-
-.customer-service > hr {
-    position: relative;
-    right: 2.5%;
-    margin-bottom: 2em;
-}
-
-.customer-service > ul {
-    position: relative;
-    text-align: center;
-    right: 8%;
-}
-
-.customer-service > ul > li > a {
-    color: #1d071989;
-    transition: 0.2s ease-in-out;
-}
-
-.customer-service > ul > li > a:hover {
-    color: rgb(167, 125, 125);
-}
-
-
-/*Contact container*/
-
-.contact {
-    margin-bottom: 2em;
-}
-
-.contact > hr {
-    width: 10em;
-    position: relative;
-    right: 1%;
-    margin-bottom: 2em;
-}
 
 .contact > h3 {
-    left: 28%;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #1d071989;
 }
-
-.contact > ul {
-    text-align: center;
-    position: relative;
-    right: 7%;
-}
-
-.contact > ul > li, .customer-service > ul > li  {
-    margin-bottom: 1em;
-}
-
-.contact > ul > li > a, .customer-service > ul > li > a {
-    text-decoration: none;
-}
-
 
 .house, .envelope, .phone {
     color: black;
 }
 
-/*Copyright*/
 .copyright {
     text-align: center;
+    padding-bottom: 0.5em;
+    border-bottom:1px solid #1d071989
+}
+
+@media (max-width: 680px) {
+    .socials > h3, .contact > h3 {
+        font-size: 1.2em;
+    }
+
+    .socials > ul > li, .contact > ul > li, .copyright  {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .socials > h3, .contact > h3 {
+        font-size: 0.9em;
+    }
+
+    .socials > ul > li, .contact > ul > li, .copyright  {
+        font-size: 0.5em;
+    }
 }

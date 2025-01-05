@@ -1,13 +1,21 @@
 .opening {
-        background: url("/pictures_document/opening-model.jpg");
-        background-size: cover;
-        height: 45em;
-        width: 100%;
-        margin-bottom: 10em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 750px;
+}
+
+.opening-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .opening-wrapper {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: absolute;
     top: 40%;
 }
 
@@ -27,4 +35,101 @@
 
 .opening-wrapper > h2 {
     font-size: 1.7em;
+}
+
+@media (max-width: 1250px) {
+    .opening {
+        margin-top: 150px;
+        height: 600px;
+    }
+
+    .opening-wrapper > h1 {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 980px) {
+    .opening {
+        height: 500px;
+    }
+
+    .opening-wrapper {
+        top: 40%;
+    }
+
+    .opening-wrapper > h1 {
+        font-size: 4.2em;
+    }
+    
+    .opening-wrapper > h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 860px) {
+    .opening {
+        height: 400px;
+    }
+
+    .opening-wrapper {
+        top: 40%;
+    }
+
+    .opening-wrapper > h1 {
+        font-size: 3.2em;
+    }
+    
+    .opening-wrapper > h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 680px) {
+    .opening {
+        height: 320px;
+    }
+
+    .opening-wrapper {
+        top: 45%;
+    }
+
+    .opening-wrapper > h1 {
+        font-size: 2.5em;
+    }
+    
+    .opening-wrapper > h2 {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 540px) {
+    .opening {
+        height: 250px;
+    }
+
+    .opening-wrapper > h1 {
+        font-size: 1.8em;
+    }
+    
+    .opening-wrapper > h2 {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 350px) {
+    .opening {
+        height: 160px;
+    }
+
+    .opening-wrapper {
+        top: 50%;
+    }
+
+    .opening-wrapper > h1 {
+        font-size: 1em;
+    }
+    
+    .opening-wrapper > h2 {
+        font-size: 0.45em;
+    }
 }

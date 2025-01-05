@@ -1,16 +1,11 @@
-/*services container*/
-
 .services {
-    margin-bottom: 13em;
+    margin: 8em 0 5em 0;
 }
 
-.services > .service-container {
+.service-container {
     display: flex;
-    margin-top: 2em;
-    justify-content:center;
+    justify-content: space-evenly;
 }
-
-/*service headers and buttons text*/
 
 .services > h1, .service-button > a, .service-container > * > h2 {
     text-transform: uppercase;
@@ -22,9 +17,12 @@
 }
 
 .services > h1 {
-    text-align: center;
+    width: fit-content;
     font-size: 2.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    padding: 0.4em;
+    border-bottom: 1px solid #1d071989;
+    justify-self: center;
 }
 
 .service-container > * > h2 {
@@ -32,24 +30,9 @@
     font-size: 1.8em;
 }
 
-.services > hr {
-    width: 15em;
-    margin-bottom: 3em;
-}
-
-.service-container > * {
-    margin-right: 5.5em;
-}
-
-/*service images*/
-
-.color {
-    margin-left: 5.5em;
-}
-
 .service-container > * > img {
-    width: 20em;
-    height: 20em;
+    width: 300px;
+    height: 300px;
     -webkit-box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
     -moz-box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
     box-shadow: -4px 6px 44px 8px rgba(143,143,143,0.79);
@@ -61,14 +44,12 @@
     transform: translateY(-1em);
 }
 
-/*service buttons*/
-
 .service-button {
+    justify-self: center;
     width: fit-content;
     background: hsl(337, 13%, 27%);
     border-radius: 12px;
-    position: relative;
-    left: 26%;
+    margin-top: 5em;
 }
 
 .service-button > a {
@@ -77,7 +58,7 @@
     display: block;
     text-decoration: none;
     font-size: 1.5em;
-    padding: 1em 1.7em;
+    padding: 1em 2.5em;
     border-radius: 12px;
     text-shadow: 0px 0px 1px rgb(111, 105, 105);
     transition: 0.4s ease-in-out;
@@ -87,4 +68,114 @@
 .service-button > a:hover {
     transform: translate(-4%, -12%);
     filter: saturate(180%);
+}
+
+@media (max-width: 1250px) {
+    .services {
+        margin: 12em 0 5em 0;
+    }
+
+    .service-container {
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .service-container > div {
+        display: grid;
+        justify-content: center;
+    }
+
+    .service-button {
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 980px) {
+    .services > h1 {
+        font-size: 2em;
+    }
+
+    .service-container > * > h2 {
+        font-size: 1.5em;
+    }
+
+    .service-button > a {
+        font-size: 1.3em;
+        padding: 1em 2em;
+    }
+}
+
+@media (max-width: 860px) {
+    .services > h1 {
+        font-size: 1.6em;
+    }
+
+    .service-container > * > h2 {
+        font-size: 1.3em;
+    }
+
+    .service-button > a {
+        font-size: 1.2em;
+        padding: 1em 1.5em;
+    }
+}
+
+@media (max-width: 680px) {
+    .service-container > * > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .services > h1 {
+        font-size: 1.45em;
+    }
+
+    .service-container > * > h2 {
+        font-size: 1.2em;
+    }
+
+    .service-button > a {
+        font-size: 1.1em;
+        padding: 1em 1.8em;
+    }
+}
+
+@media (max-width: 540px) {
+    .service-container > * > img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .services > h1 {
+        font-size: 1.3em;
+    }
+
+    .service-container > * > h2 {
+        font-size: 1.1em;
+    }
+
+    .service-button > a {
+        font-size: 1em;
+        padding: 1em 2em;
+    }
+}
+
+@media (max-width: 350px) {
+    .service-container > * > img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .services > h1 {
+        font-size: 1.1em;
+    }
+
+    .service-container > * > h2 {
+        font-size: 0.9em;
+    }
+
+    .service-button > a {
+        font-size: 0.8em;
+        padding: 1em 2.5em;
+    }
 }

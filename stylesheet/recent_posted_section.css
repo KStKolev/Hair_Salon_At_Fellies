@@ -1,53 +1,34 @@
-/*recent-posts container*/
-
 .recent-posted {
-    display: grid;
-    justify-content: center;
-    margin-bottom: 8.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    margin: 8em 0 5em 0;
 }
-
-/*recent-posts header, container text and button text*/
 
 .recent-posted h1, .posts-wrap > div *, .all-posts > a  {
     text-transform: uppercase;
     color: #1d071989;
     font-weight: 400;
-    letter-spacing: 2.2px;
-    word-spacing: 1.2px;
     text-shadow: 0px 1px 1px rgba(99, 99, 99, 0.7);
 }
 
 .recent-posted h1 {
     font-size: 2.5em;
-    text-align: center;
-    margin-bottom: 0.5em;
+    width: fit-content;
+    border-bottom: 1px solid #1d071989;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
 }
-
-.recent-posted hr {
-    width: 15.5em;
-    margin-bottom: 6em;
-}
-
-/*post wrap container*/
 
 .posts-wrap {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .posts-wrap > div {
-    width: 22em;
+    width: 300px;
     border-radius: 5%;
-    margin-right: 5em;
-    overflow: hidden;
     box-shadow: -2px 8px 10px 0px rgba(0,0,0,0.5);
-}
-
-/*recent-post elements - image, header, paragraph and button*/
-
-.post-1 {
-    margin-left: 6em;
 }
 
 .posts-wrap > div > img {
@@ -72,16 +53,18 @@
     font-weight: 400;
     font-size: 1em;
     padding: 1em;
-    text-transform: capitalize;
+    text-transform: initial;
 }
 
 .read-container, .all-posts  {
     width: fit-content;
     background: hsl(337, 13%, 27%);
     border-radius: 12px;
-    margin-bottom: 3em;
-    position: relative;
-    left: 28%;
+    place-self: center;
+}
+
+.read-container {
+    margin-bottom: 2em;
 }
 
 .read-container > a, .all-posts > a {
@@ -101,12 +84,136 @@
     padding: 1.4em;
 }
 
-.all-posts {
-    margin-top: 3em;
-    left: 44.5%;
-}
-
 .all-posts > a:hover, .read-container > a:hover {
     transform: translate(-4%, -12%);
     filter: saturate(180%);
+}
+
+@media (max-width: 1250px) {
+    .recent-posted {
+        margin: 12em 0 5em 0;
+    }
+
+    .posts-wrap {
+        flex-direction: column;
+        justify-content: center;
+        gap: 3em;
+    }
+
+    .posts-wrap > div {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 980px) {
+    .recent-posted h1 {
+        font-size: 2em;
+    }
+
+    .all-posts > a {
+        font-size: 1.1em;
+        padding: 1.2em;
+    }
+}
+
+@media (max-width: 860px) {
+    .recent-posted h1 {
+        font-size: 1.6em;
+    }
+
+    .posts-wrap > div > h3 {
+        font-size: 1.2em;
+    }
+
+    .posts-wrap > div > p {
+        font-size: 0.9em;
+    }
+
+    .read-container > a {
+        padding: 0.9em;
+    }
+}
+
+@media (max-width: 680px) {
+    .recent-posted h1 {
+        font-size: 1.45em;
+    }
+
+    .posts-wrap > div > h3 {
+        font-size: 1.1em;
+    }
+
+    .posts-wrap > div > p {
+        font-size: 0.8em;
+    }
+
+    .read-container > a {
+        font-size: 0.8em;
+        padding: 1em;
+    }
+
+    .all-posts > a {
+        font-size: 1em;
+        padding: 1em;
+    }
+}
+
+@media (max-width: 540px) {
+    .recent-posted {
+        gap: 3em;
+    }
+
+    .posts-wrap > div {
+        width: 250px;
+    }
+
+    .recent-posted h1 {
+        font-size: 1.3em;
+    }
+
+    .posts-wrap > div > h3 {
+        font-size: 1em;
+    }
+
+    .posts-wrap > div > p {
+        font-size: 0.7em;
+    }
+
+    .read-container > a {
+        font-size: 0.7em;
+        padding: 0.9em;
+    }
+
+    .all-posts > a {
+        font-size: 0.9em;
+        padding: 0.8em;
+    }
+}
+
+@media (max-width: 350px) {
+    .posts-wrap > div {
+        width: 150px;
+    }
+
+    .recent-posted h1 {
+        font-size: 1.1em;
+    }
+
+    .posts-wrap > div > h3 {
+        font-size: 0.7em;
+    }
+
+    .posts-wrap > div > p {
+        font-size: 0.5em;
+    }
+
+    .read-container > a {
+        font-size: 0.5em;
+        padding: 0.5em;
+    }
+
+    .all-posts > a {
+        font-size: 0.7em;
+        padding: 0.7em;
+    }
 }

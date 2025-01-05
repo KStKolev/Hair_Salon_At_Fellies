@@ -7,10 +7,6 @@
 @import "/stylesheet/footer.css";
 @import "/stylesheet/newsletter_section.css";
 
-/*css for the calendar*/
-@import "https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css";
-@import "https://npmcdn.com/flatpickr/dist/themes/airbnb.css";
-
 @font-face {
     font-family: 'BookmanOldStyle';
     src: url('/stylesheet/Bookman_Old_Style_Font/Bookman\ Old\ Style\ Regular.ttf') format('ttf');
@@ -18,14 +14,36 @@
     font-style: normal;
 }
 
-html, body {
+body {
+    min-width: 200px;
+    font-family: 'BookmanOldStyle', serif;
+    background-color: rgb(236, 238, 240);
+    cursor: default;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    font-family: 'BookmanOldStyle', serif;
-    cursor:default;
-    display: grid;
 }
 
-body {
-    background-color: rgb(236, 238, 240);
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: none;
+}
+
+@media (max-width: 980px) {
+    main {
+        gap: 4em;
+    }
 }
